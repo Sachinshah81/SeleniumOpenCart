@@ -11,7 +11,7 @@ import com.opencart.BaseTest.MainTest;
 import com.opencart.pages.HomePage;
 import com.opencart.pages.SpecialOfferPage;
 
-public class VerifySpecialOfferPage extends MainTest{
+public class TestCaseVerifySpecialOfferPage extends MainTest{
 	
 	WebDriver driver;
 	

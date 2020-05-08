@@ -17,26 +17,20 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.opencart.BaseTest.*;
+import com.opencart.BaseTest.MainTest;
 import com.opencart.pages.HomePage;
 
 import junit.framework.Assert;
 
-public class VerifyHomePageTestOneUsingConstructor {
-	WebDriver driver;
+public class TestCaseVerifyHomePageTestOne extends MainTest {
 
-	public VerifyHomePageTestOneUsingConstructor(WebDriver driver) {
-		
-		this.driver = driver;
-	}
+	WebDriver driver;
 
 	//Here we get the driver that was set in the MainTest-Class:
 	@BeforeClass
 	public void setup () throws IOException, InterruptedException {
 		
-		MainTest MainTestObj = new MainTest();
-		driver = MainTestObj.SetDriver();
-		
+		driver = SetDriver();
 	}
 	
 	@Test (priority=0)

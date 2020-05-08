@@ -18,8 +18,8 @@ public class MainTest {
 		//Create a new object of class-type "Properties"
 		Properties MydatafileObject = new Properties();
 		//Create a new object to handle the properties file with the given path of that file
-		FileInputStream MypropertiesFile = new FileInputStream ("C:\\Users\\sachisha\\eclipse-workspace\\OpenCartAutomation\\InputDataSetFile.properties");
-		
+		//FileInputStream MypropertiesFile = new FileInputStream ("C:\\Users\\sachisha\\eclipse-workspace\\OpenCartAutomation\\InputDataSetFile.properties");
+		FileInputStream MypropertiesFile = new FileInputStream ("C:\\Users\\sachisha\\git\\Opencart\\OpenCartAutomation\\InputDataSetFile.properties");
 		//Connect the two objects loading the properties file
 		MydatafileObject.load(MypropertiesFile);
 		

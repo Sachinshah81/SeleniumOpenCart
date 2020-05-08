@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
     <classes>
-      <class name="com.opencart.test.VerifyHomePageTestOne"/>
-      <class name="com.opencart.test.VerifySpecialOfferPage"/>
+      <class name="com.opencart.test.TestCaseVerifyHomePageTestOne"/>
+      <class name="com.opencart.test.TestCaseVerifySpecialOfferPage"/>
       <!--  <class name="com.opencart.test.TestCommonUtilityFunctions"/>-->
     </classes>
   </test> <!-- Some Test -->
